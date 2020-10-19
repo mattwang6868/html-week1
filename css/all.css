@@ -124,13 +124,13 @@ h3 span {
 .rectangel {
   background: #415165;
   text-align: center;
+  padding: 24px 0 36px 0;
+  color: #fff;
 }
 
 .rectangel-inner-skills {
   width: 996px;
   margin: 0 auto;
-  color: #fff;
-  padding: 24px 0 36px 0;
 }
 
 .rectangel-inner-skills ul {
@@ -170,10 +170,8 @@ h3 span {
 }
 
 .rectangel-inner-contactMethod {
-  color: #fff;
   width: 996px;
   margin: 0 auto;
-  padding: 24px 0 36px 0;
 }
 
 .rectangel-inner-contactMethod ul li {
@@ -183,7 +181,11 @@ h3 span {
   margin-bottom: 20px;
 }
 
-.icon-btn {
+.icon {
+  margin-bottom: 0 !important;
+}
+
+.icon .icon-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,7 +195,11 @@ h3 span {
   text-align: center;
 }
 
-.icon-btn li {
-  margin: 0 12px;
+.icon .icon-btn li {
+  margin: 0 12px !important;
+}
+
+.rectangel.contactMethod {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=all.css.map */
